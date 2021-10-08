@@ -74,7 +74,7 @@ const useStyle = makeStyles(theme=>({
   shortTitle:{
     fontSize: 16,
     fontWeight: 600,
-    
+    color: 'black'
   },
   discount:{
     fontSize:14,
@@ -83,7 +83,8 @@ const useStyle = makeStyles(theme=>({
   },
   tagline:{
     fontSize:14,
-    opacity: 0.6
+    opacity: 0.6,
+    color: 'grey'
   }
 
 }));
