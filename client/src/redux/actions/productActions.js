@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:8000";
+const url = "";
 
 export const getProducts = () => async (dispatch) => {
   try {
